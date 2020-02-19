@@ -37,5 +37,11 @@ int main(int argc, char* argv[]){
     str5[5]='\0';
     printf("%s\n",str5);
 
+    /* read input from user until white space */
+    char str6[20];
+    printf("\nEnter text without spacees:");
+    scanf("%s",str6);
+    printf("%s\n",str6);
+
 return 0;
 }

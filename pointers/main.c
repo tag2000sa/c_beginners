@@ -1,9 +1,5 @@
 #include <stdio.h>
 #include "sort_pointer.h"
-struct Node{
-    int data;
-    struct Node *nextNode;
-};
 
 int main(int argc,char* argv[]){
     int lsize,array[12]={72,-8,100,-2,12,0,-56,1,33,-14,88,-26};
